@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 60px;
+    font-family: "source serif pro";
+    font-size: 30px;
+}
+label{
+    font-weight: bold;
+    font-size: 30px;
+}
+.wrapper{
+    background-color:turquoise;
+    width: 400px;
+    position: absolute;
+    padding: 40px;
+    left: 30%;
+    top: 30%;
+    box-shadow: rgb(97, 49, 49);
+}
+.submit{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: centre;
+    left: 40%;
+}
+.submit:hover{
+    background-color: rgb(183, 32, 127);
+    color: rgb(214, 40, 40);
+}
+.input{
+    outline:none;
+    padding:10px;
+}
+select{
+    outline: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+.output{
+    color:rgb(64, 38, 159);
+}
+
